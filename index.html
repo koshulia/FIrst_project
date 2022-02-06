@@ -15,15 +15,15 @@
                 <div class="nav-group">
                     <div class="logo">Studio</div>
                     <ul class="nav">
-                        <li>
-                            <a href="#studio">Студия</a>
+                        <li class="navhover">
+                            <a class="active" href="#studio">Студия</a>
                         </li>
 
-                        <li>
+                        <li class="navhover">
                             <a href="/portfolio.html">Портфолио</a>
                         </li>
 
-                        <li>
+                        <li class="navhover">
                             <a href="#contacts">Контакты</a>
                         </li>
                     </ul>
@@ -31,11 +31,17 @@
 
                 <ul class="nav contacts">
                     <li>
-                        <a href="#mail">info@devstudio.com</a>
+                        <a href="#mail" class="link-nav-contacts">
+                            <svg class="svg-nav-contacts" width="16" height="12">
+                                <use href="./images/sprite.svg#icon-envelope-hover"></use>
+                            </svg>info@devstudio.com</a>
                     </li>
 
                     <li>
-                        <a href="number">+38 096 111 11 11</a>
+                        <a href="number" class="link-nav-contacts">
+                            <svg class="svg-nav-contacts" width="10" height="16">
+                                <use href="./images/sprite.svg#icon-Vector"></use>
+                            </svg>+38 096 111 11 11</a>
                     </li>
                 </ul>
             </div>
@@ -148,33 +154,24 @@
 
                         <div class="socials">
                             <a href="http://www.instagram.com" class="icon-link">
-                                <div class="icon">
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-instagram1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-instagram1"></use>
+                                </svg>
                             </a>
                             <a href="http://www.twitter.com" class="icon-link">
-                                <div class="icon">
-
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-twitter1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-twitter1"></use>
+                                </svg>
                             </a>
                             <a href="http://www.facebook.com" class="icon-link">
-                                <div class="icon">
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-faccebook1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-faccebook1"></use>
+                                </svg>
                             </a>
                             <a href="http://www.linkedin.com" class="icon-link">
-                                <div class="icon">
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-linkedin1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-linkedin1"></use>
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -261,33 +258,25 @@
                         <p>UI Designer</p>
                         <div class="socials">
                             <a href="http://www.instagram.com" class="icon-link">
-                                <div class="icon">
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-instagram1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-instagram1"></use>
+                                </svg>
                             </a>
                             <a href="http://www.twitter.com" class="icon-link">
-                                <div class="icon">
 
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-twitter1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-twitter1"></use>
+                                </svg>
                             </a>
                             <a href="http://www.facebook.com" class="icon-link">
-                                <div class="icon">
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-faccebook1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-faccebook1"></use>
+                                </svg>
                             </a>
                             <a href="http://www.linkedin.com" class="icon-link">
-                                <div class="icon">
-                                    <svg class="icon-svg">
-                                        <use href="./images/sprite.svg#icon-linkedin1"></use>
-                                    </svg>
-                                </div>
+                                <svg class="icon-svg">
+                                    <use href="./images/sprite.svg#icon-linkedin1"></use>
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -344,11 +333,38 @@
     <footer>
 
         <div class="container">
-            <div>
-                <div class="logo v2">Studio</div>
-                <p class="footadrs">г. Киев, пр-т Леси Украинки, 26</p>
-                <p class="footercontacts">info@example.com</p>
-                <p class="footercontacts">+38 099 111 11 11</p>
+            <div class="footercontactsloc">
+                <div>
+                    <div class="logo v2">Studio</div>
+                    <p class="footadrs">г. Киев, пр-т Леси Украинки, 26</p>
+                    <p class="footercontacts">info@example.com</p>
+                    <p class="footercontacts">+38 099 111 11 11</p>
+                </div>
+                <div class="footersocialsloc">
+                    <div class="followus">присоединяйтесь</div>
+                    <div class="footsocials">
+                        <a href="http://www.instagram.com" class="foot-icon-link">
+                            <svg class="foot-icon-svg">
+                                <use href="./images/sprite.svg#icon-instagram1"></use>
+                            </svg>
+                        </a>
+                        <a href="http://www.twitter.com" class="foot-icon-link">
+                            <svg class="foot-icon-svg">
+                                <use href="./images/sprite.svg#icon-twitter1"></use>
+                            </svg>
+                        </a>
+                        <a href="http://www.facebook.com" class="foot-icon-link">
+                            <svg class="foot-icon-svg">
+                                <use href="./images/sprite.svg#icon-faccebook1"></use>
+                            </svg>
+                        </a>
+                        <a href="http://www.linkedin.com" class="foot-icon-link">
+                            <svg class="foot-icon-svg">
+                                <use href="./images/sprite.svg#icon-linkedin1"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 

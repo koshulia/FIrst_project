@@ -29,8 +29,10 @@ body {
     align-items: center;
     justify-content: center;
     height: calc(100vh - 80px);
-
-    background: url(/images/Order.png);
+    background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(/images/order.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 button.order {
@@ -153,9 +155,7 @@ button.order {
 
 .teambcg {
     background: #F5F4FA;
-    border: 1px solid #000000;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     width: 100%;
     padding-block: 60px;
@@ -235,22 +235,25 @@ button.order {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
 }
 
 .icon-link:hover .icon-svg,
 .icon-link:focus .icon-svg {
-    fill:#FFFFFF;
+    fill: #FFFFFF;
 }
 
 .icon-link:hover,
 .icon-link:focus {
     background-color: #2196F3;
+    transition: 0.3s;
 }
 
-.regclients{
+.regclients {
     height: 300px;
-    padding-block: 50px;  
+    padding-block: 50px;
 }
+
 .regclients h5 {
     font-family: Roboto;
     font-style: normal;
@@ -280,15 +283,22 @@ button.order {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+.regbutcont:hover {
+    border-color: #2196F3;
 
-.regbutcont svg{
+}
+
+.regbutcont svg {
     max-width: 89px;
     max-height: 52px;
     fill: #afb1b8;
+    transition: 0.3s;
 }
-.regbutcont svg:hover,
-.regbutcont svg:focus{
-   fill: #2196F3;
+
+.regbutcont:hover svg {
+    fill: #2196F3;
 }
